@@ -32,6 +32,7 @@
                             <importSettings>
                                 <importSetting>
                                     <importType>java2alfa</importType>
+                                    <outputDir>${basedir}/generated/alfa</outputDir>
                                 </importSetting>
                             </importSettings>
                         </configuration>
@@ -52,9 +53,10 @@
                         </goals>
                         <phase>test-compile</phase>
                         <configuration>
-                            <srcPath>${basedir}/target/generated-sources/java2alfa/</srcPath>
+                            <srcPath>${basedir}/generated/alfa</srcPath>
                             <exportSettings>
                                 <exportSetting>
+                                    <outputDir>${basedir}/generated/html</outputDir>
                                     <exportType>html</exportType>
                                 </exportSetting>
                             </exportSettings>
