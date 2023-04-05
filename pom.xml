@@ -27,7 +27,7 @@
                         </goals>
                         <phase>test-compile</phase>
                         <configuration>
-                            <srcPath>target/classes</srcPath>
+                            <srcPath>${basedir}/target/classes</srcPath>
                             <importSettings>
                                 <importSetting>
                                     <importType>java2alfa</importType>
@@ -51,7 +51,7 @@
                         </goals>
                         <phase>test-compile</phase>
                         <configuration>
-                            <srcPath>target/generated-sources/java2alfa/</srcPath>
+                            <srcPath>${basedir}/target/generated-sources/java2alfa/</srcPath>
                             <exportSettings>
                                 <exportSetting>
                                     <exportType>html</exportType>
@@ -78,5 +78,5 @@
             <url>https://alfa-lang.io/repository</url>
         </pluginRepository>
     </pluginRepositories>
-        
+
 </project>
