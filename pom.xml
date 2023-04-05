@@ -26,6 +26,7 @@
                             <goal>compile</goal>
                         </goals>
                         <phase>test-compile</phase>
+                        
                         <configuration>
                             <srcPath>${basedir}/target/classes</srcPath>
                             <importSettings>
