@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        ".*": true,
+    },
+    "workbench.startupEditor": "readme",
+    "window.menuBarVisibility": "classic"
+}
