@@ -64,4 +64,19 @@
 
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>alfa-repo</id>
+            <url>https://alfa-lang.io/repository</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>alfa-repo</id>
+            <url>https://alfa-lang.io/repository</url>
+        </pluginRepository>
+    </pluginRepositories>
+        
 </project>
