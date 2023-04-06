@@ -10,6 +10,7 @@ public class Customer {
     private java.util.Map< String, Account > accounts;
     private java.util.Set< Investment > portfolio;
     private String email;
+    private java.util.Optional<Address> contactAddress;
 
     public java.util.Set<Investment> getPortfolio() {
         return portfolio;
@@ -19,7 +20,6 @@ public class Customer {
         this.portfolio = portfolio;
     }
 
-    private java.util.Optional<Address> contactAddress;
     public Address getLegalAddress() {
         return legalAddress;
     }

@@ -1,10 +1,7 @@
 package com.acme.model;
 
-import com.acme.model.governance.DataSensitivity;
 import com.acme.model.governance.Sensitive;
-
 import java.math.BigDecimal;
-
 import static com.acme.model.governance.DataSensitivity.High;
 
 public class Transaction {
