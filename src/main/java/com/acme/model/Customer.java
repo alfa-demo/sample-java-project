@@ -1,7 +1,7 @@
 package com.acme.model;
 
 
-import com.acme.model.governance.PII;
+import com.acme.governance.PII;
 
 @PII
 public class Customer {

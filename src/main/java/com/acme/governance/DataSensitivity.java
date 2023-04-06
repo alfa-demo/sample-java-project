@@ -1,4 +1,4 @@
-package com.acme.model.governance;
+package com.acme.governance;
 
 public enum DataSensitivity {
     High,

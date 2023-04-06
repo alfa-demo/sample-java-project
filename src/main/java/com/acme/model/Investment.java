@@ -1,10 +1,8 @@
 package com.acme.model;
 
-import com.acme.model.governance.Sensitive;
-
+import com.acme.governance.Sensitive;
 import java.time.LocalDateTime;
-
-import static com.acme.model.governance.DataSensitivity.High;
+import static com.acme.governance.DataSensitivity.High;
 
 public class Investment {
     private String stockSymbol;

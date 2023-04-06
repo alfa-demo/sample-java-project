@@ -1,8 +1,8 @@
 package com.acme.model;
 
-import com.acme.model.governance.Sensitive;
+import com.acme.governance.Sensitive;
 import java.math.BigDecimal;
-import static com.acme.model.governance.DataSensitivity.High;
+import static com.acme.governance.DataSensitivity.High;
 
 public class Transaction {
     private java.util.UUID id;
