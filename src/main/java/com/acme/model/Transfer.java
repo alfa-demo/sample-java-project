@@ -3,6 +3,7 @@ package com.acme.model;
 public class Transfer {
     private String iban;
     private String description;
+    
     public String getIban() {
         return iban;
     }
